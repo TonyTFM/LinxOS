@@ -1,17 +1,12 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/usr/bin/env bash
+# Standard Termux/LinxOS Umgebung
+export PS1='\[\033[01;34m\]GN9@LinxOS\[\033[00m\]:\[\033[01;32m\]\w\[\033[00m\]\$ '
+export TERM=xterm-256color
 
-linx_system() {
-    echo
-    echo "========== SYSTEM =========="
-    echo "System: Android"
-    echo "Architektur: $(uname -m)"
-    echo "Kernel: $(uname -r)"
-    echo "Shell: $SHELL"
+# Nützliche Aliase für dein System
+alias ll='ls -alF'
+alias update='$LINX_ROOT/core/update.sh'
 
-    if command -v getprop >/dev/null 2>&1; then
-        echo "Android-Version: $(getprop ro.build.version.release)"
-        echo "Gerät: $(getprop ro.product.model)"
-    fi
-
-    echo "============================"
-}
+echo "=========================================="
+echo "       LinxOS Environment Started        "
+echo "=========================================="
