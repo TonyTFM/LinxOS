@@ -1,0 +1,48 @@
+#!/bin/bash
+# LinxOS v1.1.0 - .DEB Package Builder
+
+PKG_NAME="linxos-core"
+VERSION="1.1.0"
+BUILD_DIR="$HOME/linx_build"
+TARGET="/sdcard/Download/${PKG_NAME}_${VERSION}_all.deb"
+
+echo -e "\033[38;5;39m[LinxOS DEB Builder]\033[0m Preparing package structure..."
+
+rm -rf "$BUILD_DIR"
+mkdir -p "$BUILD_DIR/DEBIAN"
+mkdir -p "$BUILD_DIR/data/data/com.termux/files/home/LinxOS"
+mkdir -p "$BUILD_DIR/data/data/com.termux/files/usr/bin"
+
+# Sauberes Control-File ohne Phantom-Abhängigkeiten
+cat << 'CTRL' > "$BUILD_DIR/DEBIAN/control"
+Package: linxos-core
+Version: 1.1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: GN9 <tonytfm@github>
+Description: LinxOS Minimal Terminal Environment & SpaceWars Engine
+Depends: bash, coreutils, git, php, lighttpd, sqlite, zip
+CTRL
+
+chmod 755 "$BUILD_DIR/DEBIAN"
+chmod 644 "$BUILD_DIR/DEBIAN/control"
+
+cp -r ~/LinxOS/* "$BUILD_DIR/data/data/com.termux/files/home/LinxOS/"
+rm -rf "$BUILD_DIR/data/data/com.termux/files/home/LinxOS/.git"
+
+ln -s /data/data/com.termux/files/home/LinxOS/bin/linx-sync "$BUILD_DIR/data/data/com.termux/files/usr/bin/sync-linx"
+ln -s /data/data/com.termux/files/home/LinxOS/bin/linx-pack "$BUILD_DIR/data/data/com.termux/files/usr/bin/pack"
+ln -s /data/data/com.termux/files/home/LinxOS/bin/linx-spacewars "$BUILD_DIR/data/data/com.termux/files/usr/bin/spacewars"
+ln -s /data/data/com.termux/files/home/LinxOS/bin/linx-info "$BUILD_DIR/data/data/com.termux/files/usr/bin/info"
+
+echo -e "\033[38;5;220m[LinxOS DEB Builder]\033[0m Compiling .deb archive..."
+dpkg-deb --build "$BUILD_DIR" "$TARGET"
+
+rm -rf "$BUILD_DIR"
+
+if [ -f "$TARGET" ]; then
+    echo -e "\033[38;5;82mSuccessfully built Debian package!\033[0m"
+else
+    echo -e "\033[38;5;196m[!] Error: Package build failed.\033[0m"
+fi

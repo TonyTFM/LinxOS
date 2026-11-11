@@ -1,0 +1,26 @@
+#!/bin/bash
+DOCROOT="$HOME/LinxOS/www/spacewars"
+
+case "$1" in
+    start)
+        # Alte PHP-Server Instanzen killen
+        pkill -f "php -S 0.0.0.0:8080" 2>/dev/null
+        echo -e "\033[38;5;39m[SpaceWars]\033[0m Starting PHP Built-in Server on port 8080..."
+        cd "$DOCROOT"
+        php -S 0.0.0.0:8080 > "$DOCROOT/config/server.log" 2>&1 &
+        sleep 1
+        if pgrep -f "php -S 0.0.0.0:8080" > /dev/null; then
+            echo -e "\033[38;5;82mServer is running! Access via http://127.0.0.1:8080\033[0m"
+        else
+            echo -e "\033[38;5;196m[!] Server failed to start. Check server.log\033[0m"
+        fi
+        ;;
+    stop)
+        echo -e "\033[38;5;196m[SpaceWars]\033[0m Stopping server..."
+        pkill -f "php -S 0.0.0.0:8080"
+        echo "Server stopped."
+        ;;
+    *)
+        echo "Usage: linx-server {start|stop}"
+        ;;
+esac

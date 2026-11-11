@@ -1,0 +1,6 @@
+#!/bin/bash
+# LinxOS v1.1.0 - System Cleaner
+echo -e "\033[38;5;196m[LinxOS Cleaner]\033[0m Cleaning package caches..."
+pkg clean
+rm -rf ~/.cache/* /tmp/*
+echo -e "\033[38;5;82mSystem cleaned successfully!\033[0m"

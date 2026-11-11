@@ -1,0 +1,20 @@
+{
+  "light_fighter": {
+    "name": "Leichter Jäger",
+    "metal": 3000, "crystal": 1000, "deuterium": 0,
+    "attack": 50, "shield": 10, "capacity": 50,
+    "rapidfire": {}
+  },
+  "cruiser": {
+    "name": "Kreuzer",
+    "metal": 20000, "crystal": 7000, "deuterium": 2000,
+    "attack": 400, "shield": 50, "capacity": 800,
+    "rapidfire": { "light_fighter": 6, "rocket_launcher": 10 }
+  },
+  "battleship": {
+    "name": "Schlachtschiff",
+    "metal": 45000, "crystal": 15000, "deuterium": 0,
+    "attack": 1000, "shield": 200, "capacity": 1500,
+    "rapidfire": {}
+  }
+}

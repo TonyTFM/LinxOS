@@ -1,0 +1,656 @@
+2026-11-11 12:44:21: (../src/src/server.c.1973) server started (lighttpd/1.4.85)
+2026-11-11 12:44:21: (../src/src/gw_backend.c.1632) invalid "bin-path" => "php-cgi" (check that file exists, is regular file, and is executable by lighttpd)
+2026-11-11 12:44:21: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:21: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:21: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:21: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:21: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:21: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:21: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:21: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:21: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:21: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:21: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:21: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:21: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:21: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:21: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:21: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:21: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:21: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:21: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:22: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:22: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:22: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:22: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:22: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:22: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:22: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:22: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:22: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:22: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:22: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:22: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:22: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:22: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:22: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:22: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:22: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:22: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:22: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:22: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:23: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:23: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:23: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:23: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:23: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:23: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:23: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:23: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:23: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:23: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:23: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:23: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:24: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:24: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:24: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:24: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:24: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:24: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:24: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:24: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:24: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:24: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:24: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:24: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:24: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:24: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:24: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:24: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:24: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:24: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:24: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:24: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:24: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:24: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:25: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:25: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:25: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:25: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:25: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:25: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:25: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:25: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:25: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:25: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:25: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:25: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:25: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:25: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:25: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:25: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:26: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:26: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:26: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:26: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:26: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:26: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:26: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:26: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:26: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:26: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:26: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:26: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:26: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:26: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:26: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:26: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:26: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:26: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:26: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:26: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:26: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:26: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:27: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:27: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:27: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:27: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:27: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:27: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:27: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:27: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:27: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:27: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:27: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:27: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:27: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:27: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:27: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:27: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:27: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:27: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:27: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:27: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:27: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:28: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:28: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:28: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:28: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:28: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:28: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:28: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:28: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:29: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:29: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:29: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:29: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:29: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:29: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:29: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:29: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:29: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:29: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:29: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:29: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:29: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:29: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:29: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:29: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:29: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:29: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:29: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:29: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:30: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:30: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:30: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:30: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:30: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:30: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:30: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:30: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:30: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:30: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:30: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:30: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:30: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:30: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:30: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:30: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:31: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:31: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:31: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:31: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:31: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:31: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:31: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:31: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:31: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:31: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:31: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:31: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:31: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:31: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:31: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:31: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:31: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:31: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:31: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:31: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:31: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:32: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:32: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:32: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:32: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:32: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:32: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:32: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:32: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:32: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:32: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:32: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:32: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:33: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:33: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:33: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:33: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:33: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:33: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:33: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:33: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:33: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:33: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:33: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:33: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:33: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:33: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:33: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:34: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:34: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:34: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:34: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:34: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:34: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:34: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:34: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:34: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:34: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:35: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:35: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:35: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:35: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:35: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:35: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:35: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:35: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:35: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:35: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:35: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:35: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:35: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:35: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:35: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:36: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:36: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:36: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:36: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:36: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:36: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:36: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:36: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:36: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:36: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:36: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:36: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:36: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:36: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:36: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:36: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:36: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:36: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:36: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:36: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:36: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:37: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:37: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:37: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:37: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:37: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:37: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:37: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:37: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:37: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:37: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:37: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:37: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:37: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:37: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:37: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:37: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:38: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:38: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:38: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:38: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:38: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:38: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:38: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:38: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:38: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:38: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:38: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:38: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:38: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:38: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:38: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:38: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:38: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:40: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:40: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:40: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:40: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:40: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:40: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:40: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:40: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:40: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:40: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:40: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:40: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:40: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:40: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:40: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:40: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:40: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:40: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:40: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:40: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:40: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:41: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:41: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:41: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:41: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:41: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:41: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:41: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:41: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:41: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:41: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:41: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:41: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:41: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:41: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:41: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:41: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:42: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:42: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:42: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:42: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:42: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:42: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:42: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:42: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:42: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:42: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:43: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:43: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:43: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:43: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:43: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:43: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:43: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:43: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:43: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:43: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:43: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:43: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:43: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:43: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:43: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:44: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:44: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:44: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:44: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:44: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:44: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:44: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:44: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:44: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:44: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:44: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:44: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:44: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:44: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:44: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:44: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:44: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:45: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:45: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:45: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:45: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:45: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:45: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:45: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:45: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:45: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:45: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:46: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:46: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:46: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:46: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:46: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:46: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:46: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:46: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:46: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:46: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:46: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:46: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:46: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:46: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:47: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:47: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:47: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:47: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:47: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:47: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:47: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:47: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:47: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:47: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:47: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:47: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:47: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:47: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:47: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:47: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:47: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:47: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:47: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:48: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:48: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:48: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:48: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:48: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:48: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:48: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:48: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:48: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:48: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:48: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:48: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:48: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:48: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:48: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:48: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:49: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:49: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:49: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:49: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:49: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:49: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:49: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:49: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:49: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:49: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:49: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:49: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:49: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:50: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:50: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:50: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:50: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:50: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:50: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:50: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:50: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:50: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:50: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:50: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:50: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:50: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:50: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:50: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:51: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:51: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:51: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:51: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:51: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:51: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:51: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:51: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:51: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:51: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:51: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:51: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:51: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:51: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:51: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:51: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:51: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:51: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:51: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:51: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:51: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:51: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:51: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:51: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:52: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:52: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:52: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:52: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:52: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:52: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:52: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:52: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:52: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:52: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:52: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:52: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:53: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:53: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:53: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:53: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:53: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:53: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:53: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:53: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:53: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:53: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:53: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:53: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:54: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:54: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:54: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:54: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:54: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:54: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:54: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:54: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:54: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:54: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:54: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:54: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:54: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:54: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:54: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:54: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:54: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:54: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:55: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:55: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:55: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:55: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:55: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:55: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:55: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:55: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:55: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:55: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:55: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:55: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:55: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:55: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:55: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:55: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:55: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:55: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:55: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:55: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:56: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:56: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:56: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:56: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:56: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:56: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:56: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:56: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:56: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:56: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:56: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:56: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:56: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:56: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:56: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:56: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:57: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:57: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:57: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:57: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:57: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:57: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:44:57: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:57: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:57: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:57: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:57: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:57: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:57: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:57: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:57: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:57: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:57: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:58: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:58: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:58: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:44:58: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:58: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:58: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:58: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:58: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:58: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:58: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:44:58: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:58: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:58: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:58: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:44:58: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:44:58: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:58: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:58: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:59: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:44:59: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:44:59: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:44:59: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:44:59: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:44:59: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:44:59: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:44:59: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:45:00: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:45:00: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2: Unknown error 111
+2026-11-11 12:45:00: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-2
+2026-11-11 12:45:00: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:45:00: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:45:00: (../src/src/gw_backend.c.3118) ERROR: spawning gw failed.
+2026-11-11 12:45:00: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:45:00: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1: Unknown error 111
+2026-11-11 12:45:00: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:45:00: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:45:00: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-1
+2026-11-11 12:45:00: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:45:00: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3: Unknown error 111
+2026-11-11 12:45:00: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-3
+2026-11-11 12:45:00: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:45:00: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:45:00: (../src/src/gw_backend.c.1068) ERROR: spawning gw failed.
+2026-11-11 12:45:01: (../src/src/server.c.1272) [note] graceful shutdown started
+2026-11-11 12:45:01: (../src/src/server.c.2384) server stopped by UID = 0 PID = 0
+2026-11-11 12:45:25: (../src/src/server.c.1973) server started (lighttpd/1.4.85)
+2026-11-11 12:45:25: (../src/src/gw_backend.c.1632) invalid "bin-path" => "php-cgi" (check that file exists, is regular file, and is executable by lighttpd)
+2026-11-11 12:45:25: (../src/src/gw_backend.c.377) child exited: 127 unix:/data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0
+2026-11-11 12:45:25: (../src/src/gw_backend.c.677) gw-backend failed to start: php-cgi
+2026-11-11 12:45:25: (../src/src/gw_backend.c.679) If you're trying to run your app as a FastCGI backend, make sure you're using the FastCGI-enabled version.  If this is PHP on Gentoo, add 'fastcgi' to the USE flags.  If this is PHP, try removing the bytecode caches for now and try again.
+2026-11-11 12:45:25: (../src/src/gw_backend.c.1712) [ERROR]: spawning gw failed.
+2026-11-11 12:45:25: (../src/src/server.c.1977) Configuration of plugins failed. Going down.
+2026-11-11 12:46:58: (../src/src/server.c.1973) server started (lighttpd/1.4.85)
+2026-11-11 12:46:58: (../src/src/gw_backend.c.1632) invalid "bin-path" => "php-cgi" (check that file exists, is regular file, and is executable by lighttpd)
+2026-11-11 12:46:58: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:46:58: (../src/src/gw_backend.c.643) open dirname failed: php-cgi: Unknown error 13
+2026-11-11 12:46:58: (../src/src/gw_backend.c.654) gw-backend failed to start: php-cgi: Unknown error 13
+2026-11-11 12:46:58: (../src/src/gw_backend.c.1712) [ERROR]: spawning gw failed.
+2026-11-11 12:46:58: (../src/src/server.c.1977) Configuration of plugins failed. Going down.
+2026-11-11 12:48:17: (../src/src/server.c.1973) server started (lighttpd/1.4.85)
+2026-11-11 12:48:17: (../src/src/gw_backend.c.1632) invalid "bin-path" => "php-cgi" (check that file exists, is regular file, and is executable by lighttpd)
+2026-11-11 12:48:17: (../src/src/gw_backend.c.534) connect() /data/data/com.termux/files/home/LinxOS/www/spacewars/php.socket-0: Unknown error 111
+2026-11-11 12:48:17: (../src/src/gw_backend.c.643) open dirname failed: php-cgi: Unknown error 13
+2026-11-11 12:48:17: (../src/src/gw_backend.c.654) gw-backend failed to start: php-cgi: Unknown error 13
+2026-11-11 12:48:17: (../src/src/gw_backend.c.1712) [ERROR]: spawning gw failed.
+2026-11-11 12:48:17: (../src/src/server.c.1977) Configuration of plugins failed. Going down.

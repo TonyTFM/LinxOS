@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+
+TOKEN_FILE="$HOME/.linx_root_auth"
+BASH_PATH="$(which bash 2>/dev/null || echo '/data/data/com.termux/files/usr/bin/bash')"
+
+# 1. Wenn Token vorhanden -> Direkt in die Root-Shell mit #-Prompt
+if [ -f "$TOKEN_FILE" ]; then
+    echo -e "\033[40;\033[1;92m[INFO] Permanentes Root-Token aktiv. Starte Root-Shell...\033[0m"
+    exec su -c "export PS1='\[\033[40;\033[1;31m\][ROOT@LinxOS-GN9 \[\033[97m\]\w\[\033[31m\]]# \[\033[0m\]'; exec $BASH_PATH"
+fi
+
+echo -e "\033[40;\033[1;91m"
+echo "=================================================="
+echo "    [!] WARNUNG: LinxOS Privileg-Eskalation       "
+echo "=================================================="
+echo -e "\033[40;\033[97m"
+echo "Um Root-Rechte zu erlangen, musst du den Kernel-Schlüssel knacken!"
+echo ""
+
+# Stufe 1: Sicherheits-Code
+read -p "[Stufe 1] Gib den GemiN9-Systemcode ein: " user_code
+
+if [ "$user_code" != "GemiN9" ]; then
+    echo -e "\033[31m[FEHLER] Falscher Code! Zugriff verweigert.\033[0m"
+    exit 1
+fi
+
+echo -e "\033[32m[OK] Stufe 1 bestanden.\033[0m"
+echo ""
+
+# Stufe 2: Terminal-Rechenaufgabe
+echo "[Stufe 2] System-Prüfsumme verifizieren:"
+NUM1=$((RANDOM % 50 + 10))
+NUM2=$((RANDOM % 50 + 10))
+CORRECT=$((NUM1 + NUM2))
+
+read -p "Was ist $NUM1 + $NUM2 ? " MATH_ANS
+
+if [ "$MATH_ANS" -ne "$CORRECT" ]; then
+    echo -e "\033[31m[FEHLER] Falsche Prüfsumme! Root-Vorgang abgebrochen.\033[0m"
+    exit 1
+fi
+
+echo -e "\033[32m[OK] Stufe 2 bestanden.\033[0m"
+echo ""
+
+# Token im Termux-Home speichern
+touch "$TOKEN_FILE"
+
+echo -e "\033[40;\033[1;92m=================================================="
+echo " [SUCCESS] PERMANENTES ROOT AKTIVIERT & GESPEICHERT! "
+echo -e "==================================================\033[0m"
+echo -e "\033[97mStarte Root-Shell...\033[0m"
+
+exec su -c "export PS1='\[\033[40;\033[1;31m\][ROOT@LinxOS-GN9 \[\033[97m\]\w\[\033[31m\]]# \[\033[0m\]'; exec $BASH_PATH"

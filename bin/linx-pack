@@ -1,0 +1,9 @@
+#!/bin/bash
+# LinxOS v1.1.0 - Package Exporter
+TIMESTAMP=$(date '+%Y%m%d_%H%M')
+TARGET="/sdcard/Download/LinxOS_$TIMESTAMP.zip"
+
+echo -e "\033[38;5;39m[LinxOS Exporter]\033[0m Packing ~/LinxOS to $TARGET ..."
+cd ~ || exit 1
+zip -r "$TARGET" LinxOS -x "LinxOS/.git/*"
+echo -e "\033[38;5;82mSuccessfully exported to Downloads!\033[0m"

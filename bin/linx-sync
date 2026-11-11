@@ -1,0 +1,15 @@
+#!/bin/bash
+# LinxOS v1.1.0 - Auto Git Sync
+cd "$LINX_ROOT" || exit 1
+echo -e "\033[38;5;39m[LinxOS Git Sync]\033[0m Scanning repository..."
+git status -s
+
+read -p "Enter commit message (or press ENTER for auto-timestamp): " msg
+if [ -z "$msg" ]; then
+    msg="LinxOS update $(date '+%Y-%m-%d %H:%M')"
+fi
+
+git add .
+git commit -m "$msg"
+git push origin main --force-with-lease
+echo -e "\033[38;5;82mSync complete!\033[0m"

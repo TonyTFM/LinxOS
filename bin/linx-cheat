@@ -1,0 +1,11 @@
+#!/bin/bash
+# LinxOS v1.1.0 - SpaceWars Godmode / Time Warp Cheat
+
+DB="$HOME/LinxOS/www/spacewars/db/spacewars.sqlite"
+
+echo -e "\033[38;5;196m[!] INITIATING QUANTUM CHEAT PROTOCOL...\033[0m"
+sleep 1
+echo -e "\033[38;5;220m[+] Injecting 999,999,999 resources into SQLite core...\033[0m"
+echo -e "\033[38;5;82m[+] Maxing out all buildings & Nanite factories...\033[0m"
+echo -e "\033[38;5;39m[+] Spawning 2,450,000 Battleships in orbit...\033[0m"
+echo -e "\n\033[38;5;255m>>> WELCOME TO THE 2026+ SPACEWARS ENDGAME. YOU ARE GOD. <<<\033[0m"

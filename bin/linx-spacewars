@@ -1,0 +1,27 @@
+#!/bin/bash
+# LinxOS v1.1.0 - SpaceWars Server Controller
+
+PORT=8080
+WEB_ROOT="$HOME/LinxOS/www/spacewars"
+
+case "$1" in
+    start)
+        echo -e "\033[38;5;39m[LinxOS SpaceWars]\033[0m Starting local game server on port $PORT..."
+        mkdir -p "$WEB_ROOT"
+        php -S 127.0.0.1:$PORT -t "$WEB_ROOT" > /dev/null 2>&1 &
+        echo $! > ~/.spacewars.pid
+        echo -e "\033[38;5;82mServer online!\033[0m Open in Browser: \033[38;5;75mhttp://localhost:$PORT\033[0m"
+        ;;
+    stop)
+        if [ -f ~/.spacewars.pid ]; then
+            kill $(cat ~/.spacewars.pid) 2>/dev/null
+            rm ~/.spacewars.pid
+            echo -e "\033[38;5;196m[LinxOS SpaceWars]\033[0m Server stopped."
+        else
+            echo -e "Server is not running."
+        fi
+        ;;
+    *)
+        echo "Usage: linx-spacewars {start|stop}"
+        ;;
+esac

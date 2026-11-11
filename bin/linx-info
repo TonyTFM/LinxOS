@@ -1,0 +1,20 @@
+#!/bin/bash
+# LinxOS v1.1.0 - GSI & Storage Monitor
+
+FG_WHITE="\033[38;5;255m"
+FG_BLUE="\033[38;5;39m"
+FG_CYAN="\033[38;5;75m"
+RESET="\033[0m"
+
+echo -e "${FG_WHITE}=== LinxOS Device Stats ===${RESET}"
+echo -e "Device  : ${FG_CYAN}Samsung Galaxy A34 5G (a34x)${RESET}"
+echo -e "Kernel  : $(uname -r)"
+echo -e "Uptime  : $(uptime -p 2>/dev/null || uptime)"
+
+echo -e "\033[38;5;255m=== LinxOS Footprint ===\033[0m"
+# Größenerfassung ohne Fehler durch unlesbare System-Mounts
+LINX_SIZE=$(du -sh ~/LinxOS 2>/dev/null | awk '{print $1}')
+TERMUX_SIZE=$(du -sh --exclude="*/containers/*" /data/data/com.termux/files 2>/dev/null | awk '{print $1}')
+
+echo -e "LinxOS Core Repo : ${FG_BLUE}${LINX_SIZE}${RESET}"
+echo -e "Termux Base App  : ${FG_CYAN}${TERMUX_SIZE}${RESET}"

@@ -1,0 +1,53 @@
+{
+  "habitat_slum": {
+    "name": "Arbeiter-Baracken",
+    "base_metal": 30,
+    "base_crystal": 10,
+    "factor": 1.4,
+    "type": "infrastructure"
+  },
+  "metal_mine": {
+    "name": "Metallmine",
+    "base_metal": 60,
+    "base_crystal": 15,
+    "factor": 1.5,
+    "type": "production"
+  },
+  "crystal_synth": {
+    "name": "Kristallsynthetisierer",
+    "base_metal": 48,
+    "base_crystal": 24,
+    "factor": 1.6,
+    "type": "production"
+  },
+  "deuterium_synth": {
+    "name": "Deuterium-Raffinerie",
+    "base_metal": 225,
+    "base_crystal": 75,
+    "factor": 1.5,
+    "type": "production"
+  },
+  "solar_plant": {
+    "name": "Solarkraftwerk",
+    "base_metal": 75,
+    "base_crystal": 30,
+    "factor": 1.5,
+    "type": "energy"
+  },
+  "nanite_factory": {
+    "name": "Nanitenfabrik",
+    "base_metal": 20000,
+    "base_crystal": 10000,
+    "base_deuterium": 5000,
+    "factor": 2.0,
+    "type": "facility"
+  },
+  "quantum_lab": {
+    "name": "Quanten-Forschungslabor",
+    "base_metal": 50000,
+    "base_crystal": 40000,
+    "base_deuterium": 20000,
+    "factor": 2.2,
+    "type": "research"
+  }
+}
