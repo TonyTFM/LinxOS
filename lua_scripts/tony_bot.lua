@@ -1,1 +1,1 @@
--- Script wurde oben aktualisiert
+-- Script aus dem obigen Block
