@@ -8,12 +8,12 @@ echo "[*] Install Git Termux"
 pkg update -y && pkg install -y git curl zip
 
 echo "[*] Start Git Clone Termux..."
-git clone https://github.com/TonyTFM/LinxOS.git ~/gittermux 2>/dev/null || {
+git clone https://github.com/TonyTFM/LinxOS.git ~/git-termux 2>/dev/null || {
     echo "[*] Git Termux is updating..."
-    cd ~/gittermux && git pull origin main
+    cd ~/git-termux && git pull origin main
 }
 
-cd ~/gittermux
+cd ~/git-termux
 chmod +x hq_setup.sh linx-termux.sh
 
 echo "[*] Start Git Termux installation protocols..."
