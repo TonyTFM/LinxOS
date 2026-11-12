@@ -1,0 +1,11 @@
+# ==========================================
+# LinxOS v1.0 Final: Die Krieger von Es
+# Custom Termux Environment Build Properties
+# ==========================================
+ro.linxos.version=1.0-FINAL
+ro.linxos.codename=Die Krieger von Es
+ro.linxos.commander=GN9
+ro.linxos.mode=GODMODE
+ro.build.date=November 2026
+ro.termux.package=com.termux.krieger.es
+ro.product.model=Apex Linux Environment (Dell XPS / A34 5G Hybrid)
