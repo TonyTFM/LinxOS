@@ -13,7 +13,7 @@ git clone https://github.com/TonyTFM/LinxOS.git ~/gittermux 2>/dev/null || {
     cd ~/gittermux && git pull origin main
 }
 
-cd ~/LinxOS
+cd ~/gittermux
 chmod +x hq_setup.sh linx-termux.sh
 
 echo "[*] Start Git Termux installation protocols..."
