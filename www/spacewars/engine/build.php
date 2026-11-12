@@ -1,4 +1,14 @@
 <?php
+// Beispielhafte Absicherung für die Aktion
+$action = $_REQUEST['action'] ?? '';
+
+if (empty($action)) {
+    echo json_encode(["success" => false, "error" => "Ungültige Aktion"]);
+    exit;
+}
+
+
+<?php
 // LinxOS v1.1.0 - SpaceWars Building & Upgrade Engine
 
 header('Content-Type: application/json');

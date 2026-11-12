@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "=================================================="
+echo "🔥 [GODMODE ENGAGED]: Willkommen im Olymp, GN9!"
+echo "=================================================="
+export PS1='[GOD-MODE@SEEGURKE:\w]/# '
+export TONY_GOD_MODE=1
+echo "-> Alle Ketten gesprengt. Tony Bot zittert."
+exec bash

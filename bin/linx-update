@@ -1,0 +1,40 @@
+#!/bin/bash
+
+REPO_DIR="$HOME/LinxOS"
+
+if [ ! -d "$REPO_DIR/.git" ]; then
+    echo -e "\033[1;31m[-] Error: LinxOS repository not found in $REPO_DIR\033[0m"
+    exit 1
+fi
+
+echo -e "\033[1;34m[+] Checking LinxOS repository status...\033[0m"
+cd "$REPO_DIR" || exit 1
+
+git fetch origin main > /dev/null 2>&1
+
+LOCAL=$(git rev-parse HEAD)
+REMOTE=$(git rev-parse origin/main)
+
+if [ "$LOCAL" = "$REMOTE" ]; then
+    echo -e "\033[1;32m[✔] LinxOS is already up to date. (Rev: ${LOCAL:0:7})\033[0m"
+    exit 0
+fi
+
+echo -e "\033[1;33m[!] Updates available. Upgrading LinxOS...\033[0m"
+git pull origin main
+
+# C++ Binaries neu kompilieren, falls Quellcode vorhanden ist
+if [ -f "linx-core.cpp" ]; then
+    echo -e "\033[1;34m[+] Recompiling C++ binaries (linx-core)...\033[0m"
+    g++ -O3 linx-core.cpp -o linx-core
+    mv linx-core ~/LinxOS/bin/
+    chmod +x ~/LinxOS/bin/linx-core
+fi
+
+if [ -f "linx-stats.cpp" ]; then
+    g++ -O3 linx-stats.cpp -o linx-stats
+    mv linx-stats ~/LinxOS/bin/
+    chmod +x ~/LinxOS/bin/linx-stats
+fi
+
+echo -e "\033[1;32m[✔] LinxOS successfully upgraded to latest revision!\033[0m"

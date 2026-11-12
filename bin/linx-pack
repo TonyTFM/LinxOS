@@ -1,9 +1,27 @@
 #!/bin/bash
-# LinxOS v1.1.0 - Package Exporter
-TIMESTAMP=$(date '+%Y%m%d_%H%M')
-TARGET="/sdcard/Download/LinxOS_$TIMESTAMP.zip"
 
-echo -e "\033[38;5;39m[LinxOS Exporter]\033[0m Packing ~/LinxOS to $TARGET ..."
-cd ~ || exit 1
-zip -r "$TARGET" LinxOS -x "LinxOS/.git/*"
-echo -e "\033[38;5;82mSuccessfully exported to Downloads!\033[0m"
+if [ -z "$1" ] || [ -z "$2" ]; then
+    echo -e "\033[1;31m[!] Usage: linx-pack <source_folder> <output_name.zip>\033[0m"
+    exit 1
+fi
+
+SRC="$1"
+OUT="$2"
+
+if [ ! -d "$SRC" ]; then
+    echo -e "\033[1;31m[-] Error: Source directory '$SRC' does not exist.\033[0m"
+    exit 1
+fi
+
+echo -e "\033[1;34m[+] Purging system junk (Thumbs.db, .DS_Store, desktop.ini)...\033[0m"
+find "$SRC" -type f \( -name "Thumbs.db" -o -name "desktop.ini" -o -name ".DS_Store" -o -name "*~" \) -delete
+
+echo -e "\033[1;33m[+] Packaging 1:1 structure from '$SRC' into '$OUT'...\033[0m"
+
+# Wechselt intern in den Ordner, damit keine übergeordneten Pfade mitgepackt werden
+CURRENT_DIR=$(pwd)
+cd "$SRC" || exit 1
+zip -r "$CURRENT_DIR/$OUT" . -x "*.git*" > /dev/null
+cd "$CURRENT_DIR" || exit 1
+
+echo -e "\033[1;32m[✔] Done! Clean 1:1 archive ready: $OUT\033[0m"
