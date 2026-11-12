@@ -1,28 +1,17 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/bin/bash
+echo -e "\033[1;31m⚡ [LinxOS Installer]: Setting up your exact environment...\033[0m"
 
-set -eu
+# 1. Verzeichnisse sicherstellen
+mkdir -p "$HOME/LinxOS/bin"
+mkdir -p "$HOME/.bin"
 
-LINX_ROOT="$(cd "$(dirname "$0")" && pwd)"
+# 2. Rechte für alle Skripte und Binaries setzen
+chmod +x "$HOME/LinxOS/bin/"* 2>/dev/null
 
-echo "================================"
-echo "       LinxOS Installer"
-echo "================================"
-
-if [ -z "${PREFIX:-}" ]; then
-    echo "Fehler: Termux-Umgebung nicht erkannt."
-    exit 1
+# 3. PATH in .bashrc einbetten, falls noch nicht geschehen
+if ! grep -q "LinxOS/bin" "$HOME/.bashrc"; then
+    echo 'export PATH="$HOME/LinxOS/bin:$PATH"' >> "$HOME/.bashrc"
+    echo -e "\033[1;32m[+] Added LinxOS bin to PATH in .bashrc\033[0m"
 fi
 
-mkdir -p "$PREFIX/bin"
-
-chmod +x "$LINX_ROOT/bin/linx"
-chmod +x "$LINX_ROOT/core/system.sh"
-chmod +x "$LINX_ROOT/core/update.sh"
-
-ln -sfn "$LINX_ROOT/bin/linx" "$PREFIX/bin/linx"
-
-echo
-echo "LinxOS wurde installiert."
-echo
-echo "Starte LinxOS mit:"
-echo "linx"
+echo -e "\033[1;32m[✔] LinxOS successfully installed! Restart your terminal or run: source ~/.bashrc\033[0m"
